@@ -34,7 +34,7 @@ function NavBar() {
          <nav class="navbar">
             <div class="navbar-container">
                 <Link to="/" class="navbar-logo" onClick={closeMobileMenu} >
-                    TRVL <i class="fab fa-typo3"></i>
+                    Coral Travel <i class="fas fa-plane-departure"></i>
                 </Link>
                 <div class="menu-icon" onClick={handleClick}>
                     <i class={click ? 'fas fa-times' : 'fas fa-bars'}/>
@@ -63,7 +63,7 @@ function NavBar() {
                         </Link>
                     </li>
                 </ul>
-                {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+                {button && <Button buttonStyle='btn--outline'>Last Minute <i class="far fa-clock"></i></Button>}
             </div>
          </nav>
         </>

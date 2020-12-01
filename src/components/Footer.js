@@ -55,11 +55,11 @@ function Footer() {
                     </div>
                     <div class="footer-link-items">
                         <h2>Kontakt</h2>
-                        <Link to='/sign-up'>Turlaj dropsa</Link>
-                        <Link to='/'>Nie wiem</Link>
-                        <Link to='/'>Dalej</Link>
-                        <Link to='/'>Co mam</Link>
-                        <Link to='/'>Pisać</Link>
+                        <Link to='/sign-up'>DLA KLIENTÓW</Link>
+                        <Link to='/'>Forum</Link>
+                        <Link to='/'>Polska</Link>
+                        <Link to='/'>Koronawirus - Informacje</Link>
+                        <Link to='/'>Newsletter</Link>
                     </div>
                 </div>
             </div>
@@ -67,7 +67,7 @@ function Footer() {
                 <div class="social-media-wrap">
                     <div class="footer-logo">
                         <Link to='/' class="social-logo">
-                            TRVL <i class="fab fa-typo3"/>
+                            Coral Travel <i class="fab fa-typo3"/>
                         </Link>
                     </div>
                     <small class="website-rights">TRVL 2020</small>
